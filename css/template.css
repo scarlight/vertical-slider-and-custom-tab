@@ -1,0 +1,384 @@
+span, a, p, em, label, th, td { 
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight:normal; font-style:normal;
+    word-spacing:0; letter-spacing:0;
+    line-height:1.5;
+    text-align:left; vertical-align:baseline;
+    color:#343434;
+    font-size:1.3em;
+}
+
+textarea { 
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight:normal; font-style:normal;
+    word-spacing:0; letter-spacing:0;
+    line-height:1.4;
+    text-align:left; vertical-align:baseline;
+    color:#343434;
+    font-size: 1.1em;
+}
+
+cite {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight:normal; font-style:normal;
+    word-spacing: 0; letter-spacing:0;
+    line-height:1.5;
+    vertical-align:baseline;
+    color:#404040;
+    font-size:1em;
+}
+
+ul, ol { 
+    list-style-position: outside;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight:normal; font-style:normal;
+    word-spacing:0; letter-spacing:0;
+    line-height:1.5;
+    text-align:left; vertical-align:baseline;
+    color:#343434; 
+    font-size:1.3em;
+}
+
+li p { 
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight:normal; font-style:normal;
+    word-spacing:0; letter-spacing:0;
+    line-height:1.4; 
+    text-align:left; vertical-align:baseline;
+    color:#343434;
+    font-size:inherit;
+}
+
+p a         { font-size:inherit; }
+a:link      { text-decoration:underline; }
+a:visited   { color:#333333 ;}
+a:hover     { text-decoration:underline; }
+a:active    { text-decoration:underline; }
+
+em          { font-size:inherit; font-style:italic; color:inherit;}
+code        { font-size:1.0em; font-style:normal; }
+pre         { font-size:1.3em; font-style:normal; }
+sup         { font-size:0.8em; vertical-align:top; letter-spacing:0; position:relative; top:-2px; }
+sub         { font-size:0.8em; vertical-align:bottom; letter-spacing:0; position:relative; bottom:-2px; }
+blockquote  { font-size:1.5em; font-weight:900; font-style:italic; }
+
+h6 { font-family: 'Open Sans', Tahoma, Arial, sans-serif; }
+h5 { font-family: 'Open Sans', Tahoma, Arial, sans-serif; }
+h4 { font-family: 'Open Sans', Tahoma, Arial, sans-serif; }
+h3 { font-family: 'Open Sans', Tahoma, Arial, sans-serif; }
+h2 { font-family: 'Open Sans', Tahoma, Arial, sans-serif; }
+h1 { font-family: 'Open Sans', Tahoma, Arial, sans-serif; }
+
+h6,h5,h4,h3,h2,h1 { font-weight:400; font-style:normal; word-spacing:0; letter-spacing:0; line-height:1.4; text-align:left; vertical-align:baseline; color:#222; }
+
+h6 { font-size:1.2em; }
+h5 { font-size:1.4em; }
+h4 { font-size:1.75em; }
+h3 { font-size:2.0em; }
+h2 { font-size:2.4em; }
+h1 { font-size:2.8em; }
+
+ul { list-style-type:disc; }
+ol { list-style-type:lower-roman; }
+ul li, ol li { font-size:inherit; }
+/*ul ul, ul ol, ol ol, ol ul { margin:5px 0px 10px 20px; }*/
+table { border-collapse:collapse; }
+
+p{ margin-bottom:20px; }
+
+body{
+    
+}
+
+#browser-wrapper
+{
+    position:relative;
+    display:block;
+    width:100%;
+    min-width:100%;
+    height:100%;
+    min-width:100%;
+    margin:0 auto;
+}
+
+#main-wrapper
+{
+    position:relative;
+    display:block;
+    width:100%;
+    min-width:100%;
+    height:auto !important;
+    height:100%;
+    min-height:100%;
+    overflow: hidden;
+    margin:0 auto;
+}
+
+#viewport-wrapper
+{
+    position:relative;
+    display:block;
+    width:100%;
+    height:auto;
+    margin:0 auto;
+    padding-bottom:30px;/*modify - optional*/
+}
+
+#COMPANYNAME-company-logo{
+    position:relative;
+    display:block;
+}
+
+h1#company{
+    position: relative;
+    display: inline-block;
+    text-indent:-99999px;
+    line-height:0em;
+    padding:0;
+}
+
+h1#company a{
+    display : block;
+    font-size: 1.2em;
+    padding:0;
+}
+
+div#company-logo{
+  display: block;
+  position: relative;
+  border: 0 none;
+  width:100px;/*modify*/
+  height:100px;/*modify*/
+  background : transparent url(http://dummyimage.com/100x100/ffffff/222222/&text=Company%20Logo) no-repeat center center scroll;/*../images/COMPANYNAME-logo.png*/
+  top:0;
+}
+
+#COMPANYNAME-header-wrp{
+    position:relative;
+    display:block;
+    width:100%;
+    height:auto;
+}
+
+#COMPANYNAME-header{
+    position:relative;
+    display:block;
+    width:960px;
+    height:100px;/*modify - optional*/
+    margin:0 auto;
+}
+
+#COMPANYNAME-body-wrp{
+    position:relative;
+    display:block;
+    width:100%;
+    height:auto;
+}
+
+#COMPANYNAME-body{
+    position:relative;
+    display:block;
+    width:960px;
+    height:auto;
+    margin:0 auto;
+}
+
+#COMPANYNAME-footer-wrp{
+    position:absolute;
+    display:block;
+    width:100%;
+    height:auto;
+    bottom:0;
+}
+
+#COMPANYNAME-footer{
+    position:relative;
+    display:block;
+    width:960px;
+    height:30px;/*modify - optional*/
+    margin:0 auto;
+}
+
+p.copyright{
+    
+}
+
+/* start adding style below */
+
+#blv-slider{
+    position: relative;
+    display: block;
+    float: left;
+    width: 600px;
+    height: 400px;
+}
+
+#blv-slider-text{
+    position: relative;
+    display: block;
+    float: right;
+    width: 360px;
+    height: 400px;
+}
+
+#blv-slider-text p{
+    position: relative;
+    display: block;
+    padding: 5px 10px;
+    width: 340px;
+    height: 390px;
+    margin: 0;
+}
+
+#blv-slider-pagination{
+    position: relative;
+    display: block;
+}
+
+#blv-slider-pagination a:hover span{
+    background-color: #00a0af;
+    color: #ffffff;
+    border: 1px solid  #00a0af;
+}
+
+#blv-slider-pagination a { text-decoration: none; }
+
+#blv-slider-pagination a span{
+    position: relative;
+    display: inline-block;
+    line-height: 1.5;
+    background-color: transparent;
+    font-size: 1.2em;
+    -webkit-border-radius: 30px;
+        moz-border-radius: 30px;
+            border-radius: 30px;
+    border: 1px solid  #58585b;
+    padding: 0 8px;
+    margin-left: 5px;
+}
+
+#COMPANYNAME-body-inner-wrp{
+    position:relative;
+    display:block;
+    width:100%;
+    height:auto;
+    right:100%;
+}
+
+#COMPANYNAME-body-right{
+    position:relative;
+    display:block;
+    width:960px;
+    height:auto;
+    float: right;
+    z-index: 9;
+}
+
+.tab-container{
+    position: relative;
+    display: block;
+    width: 600px;
+    min-height: 500px;
+    background-color: #00a0af;
+    max-width: 600px;
+    float: right;
+}
+
+#COMPANYNAME-body-inner-wrp ul{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: auto;
+    font-size: 1.0em;
+    line-height: 0.5;
+    float: right;
+    right: 600px;
+    background-color: white;
+    z-index: 10;
+}
+
+#COMPANYNAME-body-inner-wrp .nav-tabs>li:hover{
+    background-color: #00a0af;
+}
+
+#COMPANYNAME-body-inner-wrp .nav-tabs>li.active,
+#COMPANYNAME-body-inner-wrp .nav-tabs>li.active:hover,
+#COMPANYNAME-body-inner-wrp .nav-tabs>li.active:focus{
+    border: none;
+    -webkit-border-radius: 0px;
+        moz-border-radius: 0px;
+            border-radius: 0px;
+    background-color: #00a0af;
+    color: #58585a;
+}
+
+#COMPANYNAME-body-inner-wrp ul li{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    border: none;
+    margin-bottom: 15px;
+    background : #dcdcde url(../images/tab-divide.gif) repeat-y right top scroll;
+    webkit-transition: all 100ms ease;
+    -moz-transition: all 100ms ease;
+    -ms-transition: all 100ms ease;
+    -o-transition: all 100ms ease;
+    transition: all 100ms ease;
+}
+
+#COMPANYNAME-body-inner-wrp .nav-tabs>li:hover>a{
+    background-color: #00a0af;
+}
+
+#COMPANYNAME-body-inner-wrp .nav-tabs>li.active>a,
+#COMPANYNAME-body-inner-wrp .nav-tabs>li.active>a:hover,
+#COMPANYNAME-body-inner-wrp .nav-tabs>li.active>a:focus{
+    border: none;
+    -webkit-border-radius: 0px;
+        moz-border-radius: 0px;
+            border-radius: 0px;
+    color: #ffffff;
+}
+
+#COMPANYNAME-body-inner-wrp .nav-tabs>li.active>a{
+    background-color: #00a0af;
+}
+
+#COMPANYNAME-body-inner-wrp .nav-tabs>li>a{
+    position: relative;
+    display: block;
+    width: 360px;
+    padding: 15px 0px;
+    margin: 0;
+    border: none;
+    -webkit-border-radius: 0px;
+        moz-border-radius: 0px;
+            border-radius: 0px;
+    color: #231f20;
+    font-weight: bold;
+    font-size: 0.9em;
+    float:right;
+}
+
+#COMPANYNAME-body-inner-wrp ul li, #COMPANYNAME-body-inner-wrp ul li a{
+    font: inherit;
+}
+
+#COMPANYNAME-body-inner-wrp ul li a{
+    text-decoration: none;
+}
+
+.nav-tabs{
+    border: none;
+}
+
+/*** 
+START - main menu
+**/
+
+
+
+/*** 
+END - main menu
+**/
